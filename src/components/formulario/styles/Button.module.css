@@ -1,0 +1,31 @@
+.btn_container{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 68px;
+
+}
+
+.btn_container button{
+  background-color: #f7f7ff;
+  border: none;
+  border-radius: 50%;
+  transition: 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn_container button:hover{
+  transform:translate(8px,0px);
+
+}
+
+.btn_container svg{
+  width: 25px;
+  height:25px;
+  color:#0fc74d
+}
+
+
+  

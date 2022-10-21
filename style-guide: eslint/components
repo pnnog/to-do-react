@@ -1,0 +1,6 @@
+--- ONE WAY
+Geralmente os métodos ficam no componente pai e são passados para que os filhos os executem e retorne pra ser renderizado no pai
+
+-----usando state para vários componentes
+
+Se deixarmos o state no componente pai ele poderá ser utilizado por todos seus filhos. Por ex: um componente pode recebe o método setState e alterar o state. Esse valor alterado pode ser utilizado em outro componente

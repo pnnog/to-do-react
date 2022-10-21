@@ -1,0 +1,19 @@
+-- install
+npm i eslint -D
+
+-- run
+npx eslint --init
+
+-- integrate with prettier
+npm i -D eslint-config-prettier
+
+-- adicionar prettier no extends(eslint.json) 
+s
+--adicionar em settings.json
+"editor.formatOnSave": true,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},

@@ -1,0 +1,38 @@
+.card_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.texts_container{
+  width: 100%;
+  padding: 10px 15px;
+
+  background-color: #e4e4e4;
+
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  border-radius: 5px;
+  
+}
+.texts_container .title p{
+  font-weight: bolder;
+  color: rgb(46, 46, 46);
+  margin-bottom: 8px;
+
+}
+
+.texts_container .subtitle {
+  display: inline-block;
+  background-color: #eb4411;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.texts_container .subtitle p{
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  font-weight: bold;
+}
+

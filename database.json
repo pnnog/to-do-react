@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Aprender react",
+      "status": "Pendente",
+      "prazo": "Hoje"
+    },
+    {
+      "id": "2",
+      "name": "Estudar JavaScript",
+      "status": "Pendente",
+      "prazo": "Hoje"
+    }
+  ]
+}
